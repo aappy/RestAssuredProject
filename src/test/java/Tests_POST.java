@@ -31,8 +31,7 @@ public class Tests_POST {
 		// serialization not happening for your JSON 
 		System.out.println(request);
 		//System.out.println(((Object) request).toJSONString());
-		
-		
+			
 		given().
 		 header("Content-Type" , "application/json")
 		.contentType(ContentType.JSON)

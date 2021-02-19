@@ -12,7 +12,6 @@ public class Tests_GET {
 		.then()
 		.statusCode(200)
 		.body("data.id[1]", Matchers.equalTo(8))
-		.body("data.first_name", hasItems("Michael","Lindsay"));
-		
+		.body("data.first_name", hasItems("Michael","Lindsay"));	
 	}
 }

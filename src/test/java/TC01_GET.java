@@ -24,7 +24,6 @@ public class TC01_GET {
 		
 		int statusCode = response.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
-	
 	}
 	
 	@Test
