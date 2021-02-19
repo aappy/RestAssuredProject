@@ -19,3 +19,5 @@ npm config get prefix [it will tell us where node is located]
 npm install -g json-server [This might give permission error on MAC so please use below cmd  ]
 -
 sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
+![node_permissionerror](https://user-images.githubusercontent.com/46041564/108553054-01309c80-72a7-11eb-8913-d0cfc151631b.png)
