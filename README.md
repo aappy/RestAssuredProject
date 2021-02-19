@@ -5,7 +5,7 @@ How to provide data from the same class
 How to provide data from different class
 how to provide TestNg parameters
 -
-Mockoon: We can use this tool for mock apis. Aslso by using json-server we can can create rest apis.
+Mockoon: We can use this tool for mock apis. Also by using json-server we can can create rest apis.
 github.com/typicode/json-server 
 to install - 
 npm install -g json-server
