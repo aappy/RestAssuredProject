@@ -28,3 +28,15 @@ So it will create a dummy data for us
 [It will create db.json file with dummy data. And we can see it on "localhost:3000".  Please see below screenshot]
 -
 ![Screen Shot 2021-02-19 at 12 04 30 PM](https://user-images.githubusercontent.com/46041564/108555767-c6c8fe80-72aa-11eb-82f3-cf119c917f2c.png)
+
+I have updates this file!
+{
+"users":[
+	{
+		"firstName" : "Aparna",
+		"lastName"  : "Chdhary",
+		"subjectId" :  1,
+		"id"        :  1
+	}
+  ]
+}
