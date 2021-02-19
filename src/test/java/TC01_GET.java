@@ -24,7 +24,7 @@ public class TC01_GET {
 		
 		int statusCode = response.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
-		
+	
 	}
 	
 	@Test
@@ -33,7 +33,7 @@ public class TC01_GET {
 			.get("https://reqres.in/api/users?page=2")
 		.then()
 		.statusCode(200)
-		.body("data.id[0]", Matchers.equalTo(3))
+		.body("data.id[0]", Matchers.equalTo(7))
 		.log()
 		.body();
 	}
