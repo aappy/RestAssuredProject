@@ -23,3 +23,5 @@ sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 ![node_permissionerror](https://user-images.githubusercontent.com/46041564/108553054-01309c80-72a7-11eb-8913-d0cfc151631b.png)
 Start JSON Server:
 json-server --watch db.json
+So it will create a dummy data for us
+-
